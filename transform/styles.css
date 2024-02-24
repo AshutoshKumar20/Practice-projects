@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03001C;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    transition: all linear 1s;
+}
+
+img:hover {
+    /* transform: translateX(500px); */
+    /* transform: scale(2); */
+    /* transform: rotate(180deg); */
+    transform: skew(45deg);
+
+}
