@@ -33,15 +33,50 @@ body {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     text-align: center;
     padding: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 p {
     font-size: 12px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    color: black;
+}
+
+fieldset {
+    padding-bottom: 10px;
+}
+
+#username {
+    border-radius: 20px;
+    text-align: left;
+    padding: 8px;
+}
+
+#password {
+    border-radius: 20px;
+    text-align: left;
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
 }
