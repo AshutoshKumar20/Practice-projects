@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html {
+    font-size: 30%;
+
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("https://images.pexels.com/photos/10458835/pexels-photo-10458835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.login-portal {
+    width: 25vw;
+    height: 400px;
+    background-color: #fff;
+}
+
+.heading {
+    background-image: linear-gradient(to bottom, #6420aa, #931eac, #bc21ab, #df2ca9, #ff3ea5);
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
