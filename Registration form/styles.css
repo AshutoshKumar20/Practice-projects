@@ -19,21 +19,23 @@ body {
     background-position: center;
     background-size: cover;
     color: #fff;
-    border-radius: 10px;
+
 }
 
 .login-portal {
     width: 25vw;
-    height: 400px;
+    height: 500px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .heading {
     background-image: linear-gradient(to bottom, #6420aa, #931eac, #bc21ab, #df2ca9, #ff3ea5);
+    padding-bottom: 30px;
 }
 
-h3 {
-    font-size: 20px;
+h1 {
+    font-size: 30px;
     font-weight: 100;
     text-align: center;
     padding: 20px;
@@ -56,27 +58,66 @@ h2 {
 }
 
 .content {
+    padding-top: 30px;
     display: grid;
     place-items: center;
     color: black;
+
 }
 
 fieldset {
     padding-bottom: 10px;
+    border: 0 none;
+
 }
 
 #username {
+    border: 1px solid black;
     border-radius: 20px;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 
 #password {
+    border: 1px solid black;
     border-radius: 20px;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
 }
 
 ul {
     list-style: none;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.checkbox {
+    display: block;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid;
+    background-image: linear-gradient(to bottom, #6420aa, #931eac, #bc21ab, #df2ca9, #ff3ea5);
 }
