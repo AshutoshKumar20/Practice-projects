@@ -108,7 +108,10 @@ ul {
 input[type=checkbox] {
     vertical-align: middle;
     position: relative;
+}
 
+.checkbox input {
+    margin-right: 5px;
 }
 
 a {
