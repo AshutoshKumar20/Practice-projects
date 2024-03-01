@@ -40,3 +40,50 @@ div {
     border-radius: 50%;
     background-color: #865dff;
 }
+
+.cradle div:first-child {
+    animation: left-swing 2s linear infinite;
+    transform-origin: top left;
+}
+
+.cradle div:last-child {
+    animation: right-swing 2s linear 1s infinite;
+    transform-origin: top left;
+}
+
+
+@keyframes left-swing {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 30deg;
+    }
+
+    50% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes right-swing {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: -30deg;
+    }
+
+    50% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
