@@ -11,3 +11,48 @@ body {
     place-items: center;
     background-color: #191825;
 }
+
+.loader {
+    width: 20rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #865dff;
+    position: relative;
+    animation: neonloader 1.5s linear infinite reverse;
+}
+
+.loader::before {
+    content: "";
+    width: 17rem;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #191825;
+}
+
+.loader::after {
+    content: "";
+    width: 5rem;
+    aspect-ratio: 1;
+    position: absolute;
+    top: -2rem;
+    left: 8rem;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #865dff;
+    box-shadow: 0 0 1rem #865dff, 0 0 1.5rem #865dff, 0 0 2rem #865dff, 0 0 2.5rem #865dff, 0 0 3rem #865dff;
+
+}
+
+@keyframes neonloader {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
