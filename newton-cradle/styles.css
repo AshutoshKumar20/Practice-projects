@@ -15,6 +15,28 @@ body {
 .cradle {
     width: 50rem;
     height: 50rem;
+    background-color: transparent;
     border-top: 2rem solid #865dff;
     border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 4.55rem;
+}
+
+div {
+    width: 0.5rem;
+    height: 30rem;
+    background-color: #865dff;
+    position: relative;
+}
+
+.cradle div::before {
+    content: "";
+    width: 5rem;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 90%;
+    left: -2.25rem;
+    border-radius: 50%;
+    background-color: #865dff;
 }
